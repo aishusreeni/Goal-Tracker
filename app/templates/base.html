@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Goal Tracker</title>
+  </head>
+  <body>
+      <h3>Welcome {{ user.nickname }}</h3>
+      <div class="wrapper">
+          &emsp;&emsp;&emsp;
+          <a href="/food">Food</a>
+          &emsp;&emsp;&emsp;&emsp;
+          <a href="/exercise">Exercise</a>
+          &emsp;&emsp;&emsp;&emsp;
+          <a href="/skin">Skin Care</a>
+          &emsp;&emsp;&emsp;&emsp;
+          <a href="/health">Health</a>
+          &emsp;&emsp;&emsp;&emsp;
+          <a href="/read">Read</a>
+      </div>
+      {% block content %}{% endblock %}
+  </body>
+</html>
